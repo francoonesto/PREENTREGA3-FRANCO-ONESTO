@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#body{
+    height: 130vh;
+    overflow-x:hidden;
+    background: no-repeat;
+    background-color: $background-principal!important;
+}
+    #header{height: 15vh;
+    background: no-repeat;
+    }
+    
+    #main{height: 100vh;
+    background: no-repeat;
+    overflow-x: hidden;
+    }
+    
+    #footer{height: 15vh; 
+    color: $color-font;
+    font-size: $tamano-font +1;
+    font-family:$style-font;
+    background-repeat: no-repeat;  
+    }
+    
+    ul li{
+        transition: all 1s;
+    
+    &:hover{
+        transform:scale(1.3);
+    }
+    }
+
+    .lista1{
+        padding-top: 10px;
+        transition: all 1s;
+    
+    
+    &:hover{
+        color: white;
+        transform: scale(0.5);
+        }
+    }
+    .lista:hover{
+    color: white;
+    transform: scale(0.5);
+    }

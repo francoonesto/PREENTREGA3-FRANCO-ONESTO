@@ -1,0 +1,208 @@
+ /* DESKTOP FIRST  */
+
+ @media (max-width: 1400px) {}
+
+ @media (max-width: 1200px) {  }
+ 
+ @media (max-width: 992px) {.navbar>.container-fluid{
+     flex-wrap: nowrap;
+     justify-content: flex-start;
+     align-items: baseline;}
+     .nav-link{
+     background-color:transparent;
+     font-weight: bold;
+      }  }
+ 
+ @media (max-width: 768px) { 
+     #copy{font-size: 1.2rem !important;}
+  .navbar>.container-fluid{
+ flex-wrap: nowrap;
+ justify-content: flex-start;
+ align-items: baseline;}
+ .nav-link{
+ background-color:#868783;
+ font-weight: bold;
+  }
+ }
+ 
+ @media (max-width: 576px) {  
+     #copy2{display: none;}
+     #copy{display: flex;
+     align-items: center;}
+ }
+ 
+ 
+ @media (max-width: 575px) { 
+     #nuestrologo{display: none;
+     }
+ 
+ 
+ }
+ 
+  /* MOBILE FIRST */
+  @media (min-width: 320px) {  #telefonos{display:flex;
+     justify-content:center;
+     } 
+     #conocenosp{
+         display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+         font-size:  0.5rem;
+      } 
+      
+     #imag1{display: none;
+    }
+     #imag2{height: 150px;
+        width: 150px;}
+     #imag3{height: 150px;
+        width: 150px;}
+     #imag4{height: 150px;
+        width: 150px;}
+     #linea1{display: flex;
+         justify-content: flex-start;
+         }
+     #linea2{display: flex;
+             justify-content: flex-start;
+             }
+             #body__burguer{
+                 height: 480vh;
+             }
+             #main__burguer{
+                 height: 455vh;
+             }
+             .parrafo__burguer{font-size: 1rem;}
+             #burguerh1{
+                 padding-top: 100px;
+             }
+             #main__sucursales{
+                 height: 260vh;
+             }
+             #body__sucursales{
+                 height: 285vh;
+             }
+             #elrecuadro{
+                 display: none;
+             }
+             .textocontacto{
+                 font-size: 1rem !important;
+             }
+ 
+ }
+ 
+  @media (min-width: 375px) {}
+ 
+  @media (min-width: 425px) {  #telefonos{display:flex;
+     justify-content: center;
+     } 
+     #conocenosp{
+         display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+         font-size: 0.5rem;
+      } 
+      #imag2{height: 150px;
+         width: 150px;}
+      #imag3{height: 150px;
+         width: 150px;}
+      #imag4{height: 150px;
+         width: 150px;}
+     #linea1{display: flex;
+             justify-content: flex-start;
+             }
+     #linea2{display: flex;
+                 justify-content: flex-start;
+                 }
+                 #body__burguer{
+                     height: 500vh;
+                 }
+                 #main__burguer{
+                     height: 475vh;
+                 }
+                 .parrafo__burguer{font-size: 0.9rem;}
+ }
+ 
+ @media (min-width: 576px) {#telefonos{display: none;} 
+  #conocenosp{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     font-size: 1rem;
+  } 
+  #imag1{height: 150px;
+     width: 150px;
+ display: flex;
+ justify-content: flex-start;}
+ .parrafo__burguer{font-size: 0.8rem;}
+ #body__burguer{
+     height: 160vh;
+ }
+ #main__burguer{
+     height: 135vh;}
+ #burguerh1{
+     padding-top: 100px;
+ }
+ #burguer2h1{
+     padding-top: 50px;
+ }
+ h2{
+     font-size: 1rem !important;
+ }
+ .textocontacto{
+     font-size: 1.2rem !important;
+     margin: 10px;
+ }
+ }
+ 
+ @media (min-width: 768px) {#telefonos{display: none;} 
+ #conocenosp{
+     font-size: 1.2rem;
+  } 
+ #imag1{height: 250px;
+     width: 250px;
+     margin: 10px;
+ }
+      #imag2{height: 250px;
+         width: 250px;}
+      #imag3{height: 250px;
+         width: 250px;
+         margin: 10px;
+     }
+      #imag4{height: 250px;
+         width: 250px;}  
+         h2{
+             font-size: 1.5rem !important;
+         }
+         #recuadro{
+             display:flex; justify-content:center;flex-wrap: wrap;
+         }
+         #recuadro1{
+             display:flex; justify-content:center;flex-wrap: wrap;
+         }
+         #elrecuadro{
+             display: inline;
+         }
+     }
+ 
+ @media (min-width: 992px) {#telefonos{display: none;}
+ .parrafo__burguer{font-size: 1rem;}
+ #burguerh1{
+     padding-top: 25px;}
+     
+     
+ }
+ 
+ @media (min-width: 1200px) {#telefonos{display: none;}
+ .parrafo__burguer{font-size: 1.2rem;}
+ }
+ 
+ @media (min-width: 1400px) {#telefonos{display: none;}
+ #burguer2h1{
+     padding-top: 0px;
+ }
+ #main__sucursales{
+     height: 160vh;
+ }
+ #body__sucursales{
+     height: 185vh;
+ }
+ }
