@@ -46,7 +46,7 @@ header div div a img {
 
 header nav {
   color: black;
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold; }
 
@@ -150,7 +150,11 @@ section div img .img__propiedades {
     display: none; }
   #copy {
     display: flex;
-    align-items: center; } }
+    align-items: center; }
+    header div div a img {
+      margin: 10px;
+      transform: translateX(50px); }
+     }
 
 @media (max-width: 575px) {
   #nuestrologo {
@@ -247,9 +251,9 @@ section div img .img__propiedades {
   .parrafo__burguer {
     font-size: 0.8rem; }
   #body__burguer {
-    height: 160vh; }
+    height: 205vh; }
   #main__burguer {
-    height: 135vh; }
+    height: 175vh; }
   #burguerh1 {
     padding-top: 100px; }
   #burguer2h1 {
